@@ -8,8 +8,11 @@
 }
 
 body {
-    background-color: #1e1934;
-  }
+  background-image: url("brasil.png");
+  background-size: cover; /* Para cobrir todo o fundo */
+  background-repeat: no-repeat; /* Para evitar repetição da imagem */
+}
+
   
   h1 {
     position: fixed;
@@ -23,8 +26,8 @@ body {
     font-weight: 100;
     font-family: "Insaniburger";
     letter-spacing: 0.1em;
-    color: white;
-    text-shadow: 0 0 20px black;
+    color: rgb(0, 23, 231);
+    text-shadow: 0 0 100px rgb(9, 255, 0);
     opacity: 0.8;
   }
   
